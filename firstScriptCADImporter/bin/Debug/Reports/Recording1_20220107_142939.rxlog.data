@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="15.81s"
+		durationms="15814"
+		type="root"
+		rid="811564bb21a2250"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wum1"
+		rxversion="10.1.3.0"
+		host="ECS-2FB64472"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="1/7/2022 2:29:45 PM"
+		timestampiso="2022-01-07T06:29:45"
+		endtime="1/7/2022 2:30:00 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.001"
+			timeRelativeToTestModuleStartTime="00:12.001"
+			timeWallClock="14:29:57"
+			time="00:12.001"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'UpchainCADImporter.LogIn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Upchain CAD Importer']/?/?/button[@text='Log in']/text[@caption='Log in']"
+				itempath="?/?/button[@text='Log in']/text[@caption='Log in']"
+				fullname="firstScriptCADImporterRepository.UpchainCADImporter.LogIn"
+				id="67be298e643842efb040fa6a9ae7f2b0"
+				timeout="60000"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

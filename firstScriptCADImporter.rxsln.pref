@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{CDF23F30-FC8F-4E4B-A39A-CE350F872066}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution firstScriptCADImporter[firstScriptCADImporter[References[]]]]&#xD;&#xA;Solution firstScriptCADImporter\firstScriptCADImporter\Login.rxrec&#xD;&#xA;Solution firstScriptCADImporter\firstScriptCADImporter\References\System" />
+  <StartupProject value="{CDF23F30-FC8F-4E4B-A39A-CE350F872066}" />
+</Properties>

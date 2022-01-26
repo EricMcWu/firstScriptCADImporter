@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="13.87s"
+		durationms="13872"
+		type="root"
+		rid="277035a62dd28642"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wum1"
+		rxversion="10.1.3.0"
+		host="ECS-2FB64472"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="1/7/2022 3:15:52 PM"
+		timestampiso="2022-01-07T07:15:52"
+		endtime="1/7/2022 3:16:06 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<errormessage>
+			Failed to run application 'yourapp'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.560"
+			timeRelativeToTestModuleStartTime="00:12.560"
+			timeWallClock="15:16:05"
+			time="00:12.560"
+			level="Warn"
+			category="Data"
+			errimg="images_Login_20_d50c060c\Login_20_d50c060c_294b5d2a_trace.jpg"
+			errthumb="images_Login_20_d50c060c\Login_20_d50c060c_294b5d2a_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>username, password, StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.647"
+			timeRelativeToTestModuleStartTime="00:12.647"
+			timeWallClock="15:16:05"
+			time="00:12.647"
+			level="Info"
+			category="Application"
+			errimg="images_Login_20_d50c060c\Login_20_d50c060c_294b5d2a_trace.jpg"
+			errthumb="images_Login_20_d50c060c\Login_20_d50c060c_294b5d2a_trace_thumb.jpg">
+			<message>
+				Run application 'yourapp' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="121"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.725"
+			timeRelativeToTestModuleStartTime="00:12.725"
+			timeWallClock="15:16:05"
+			time="00:12.725"
+			level="Error"
+			category="Module"
+			errimg="images_Login_20_d50c060c\Login_20_d50c060c_294b5d2a_trace.jpg"
+			errthumb="images_Login_20_d50c060c\Login_20_d50c060c_294b5d2a_trace_thumb.jpg">
+			<message>
+				Failed to run application 'yourapp'.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized, RunAppFlags runFlags)
+   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   at firstScriptCADImporter.Login.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs:line 122
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="122"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

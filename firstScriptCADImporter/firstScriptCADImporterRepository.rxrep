@@ -1,0 +1,239 @@
+﻿<repository
+id="171bf835-e29d-4960-9a03-af05c109168d"
+name="firstScriptCADImporterRepository">
+	<codegen
+	classname="firstScriptCADImporterRepository"
+	namespace="firstScriptCADImporter">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="863124fd-6afe-4612-8bb8-501b3e405402"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="21cf03e5-07e8-42c5-ac78-6d6d5fbb631f"
+		isrooted="True"
+		name="UpchainCADImporter"
+		refpath="/form[@title='Upchain CAD Importer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="82740042-3fbb-46bf-9e4f-a4f5f5552fb5"
+			name="ButtonLogout"
+			refimgid="3dba6cb9-62f9-4a52-bbbb-7996a735cf89"
+			refpath="/form[@title='Upchain CAD Importer']/container[@caption='']/container[@caption='']/container[@caption='']/container[2]/button[@automationid='ButtonLogout']"
+			robustPath="/form[@title='Upchain CAD Importer']//button[@automationid='ButtonLogout']"
+			searchtimeout="30000ms">
+				/form[@title='Upchain CAD Importer']/container[@caption='']/container/container[@caption='']/container[2]/button[@automationid='ButtonLogout']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="33d619b0-163f-4438-8617-b39a600a9fc7"
+			name="Btn_textLogin"
+			refimgid="e3529294-f660-40f4-8daf-9044df09900a"
+			refpath="/form[@title='Upchain CAD Importer']/container[@caption='']/button[@text='Log in']/text[@caption='Log in']"
+			robustPath="/form[@title='Upchain CAD Importer']//text[@caption='Log in']"
+			searchtimeout="30000ms">
+				/form[@title='Upchain CAD Importer']/?/?/button[@text='Log in']/text[@caption='Log in']
+			</item>
+			<basepath>
+				/form[@title='Upchain CAD Importer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEjSURBVDhPY2DVMP1PCaaeAZzaFv+VnXzBWMjY
+AUMhCIPEYWpA6kFicANAgjBQ3NaHohGGQeIwAFIPEhtOBig5+vz/+evX/+8/fv7Pb+5G0QjDIHGQ
+PEgdSD1IDG4Ai7rJfwZFfTBmUjVC0QjDjCqGcDUwMbgBYmZO/3/9/g22Ycv+w2ADYXIgzKRq/P/x
+8xdg+d9//vxnVoPIww1gBNr65+9fqA///9f1DoMbwqxm/D+6qAoq8///o2cvwGIoBoBwTmMHVAkE
+HD174X/XrIX/r925BxWBAJOAaLgeFANApu4+cgKqDDtonzEPxXsoBoAwyJCM2tb/v3//gWqBgM9f
+v/53jc/ACBsMA2AYFCZCxvb/FR18/vPq2+CMGZwGEIdN/wMAByX+sUt0SKoAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="152b13b8-5ef6-46b1-a658-4362075180f3"
+		isrooted="True"
+		name="LogInToUpchain"
+		refpath="/dom[@domain='release-sso.upchain.gold']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="999a84a5-e474-4c52-ad81-70874afd9e74"
+			name="fieldUsername"
+			refimgid="0cd906bd-8c2a-4221-851d-af972d701625"
+			refpath="/dom[@domain='release-sso.upchain.gold']//input[#'username']"
+			robustPath="/dom[@domain='release-sso.upchain.gold']//input[#'username']"
+			searchtimeout="30000ms">
+				/dom[@domain='release-sso.upchain.gold']//input[#'username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="07985518-d2b4-41f6-a657-2f29619e9b26"
+			name="fieldPassword"
+			refimgid="dc49a8e2-cb9f-41b5-aef8-edf17cccf083"
+			refpath="/dom[@domain='release-sso.upchain.gold']//input[#'password']"
+			robustPath="/dom[@domain='release-sso.upchain.gold']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@domain='release-sso.upchain.gold']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="abf6446c-adcb-4bba-9407-8459d8694b32"
+			name="ButtonContinue"
+			refimgid="622f28a2-0329-49b0-84a4-f5aeb456a56f"
+			refpath="/dom[@domain='release-sso.upchain.gold']//input[#'kc-login']"
+			robustPath="/dom[@domain='release-sso.upchain.gold']//input[#'kc-login']"
+			searchtimeout="30000ms">
+				/dom[@domain='release-sso.upchain.gold']//input[#'kc-login']
+			</item>
+			<basepath>
+				/dom[@domain='release-sso.upchain.gold']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="9a47568b-8bd1-45b3-a52f-227186d77b37"
+		isrooted="True"
+		name="LogInToUpchainGoogleChrome"
+		refpath="/form[@title='Log in to Upchain - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="5815aa92-758b-4fda-b93b-e0154e1cc9b0"
+			name="Pane"
+			refimgid="2a2d3142-47c7-493b-87d5-d671873ffd8e"
+			refpath="/form[@title='Log in to Upchain - Google Chrome']/container[@accessiblename='Log in to Upchain - Google Chrome - Mengchao']/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]"
+			robustPath="/form[@title>'Log in to Upchain - Google']/?/?/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Log in to Upchain - Google']/container[@accessiblename&gt;'Log in to Upchain - Google']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]
+			</item>
+			<basepath>
+				/form[@title&gt;'Log in to Upchain - Google']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIlSURBVDhPtY9LTBNRFIZn4UYSSFQsaoGirlhg
+ogmGAi32hUxbaAEhUcRHfWxcGrUhMfGxQtwYE2NctKUViStYqlEMOyPKwkRiZAZdqIFEKtMZDRrg
+9547c1sQ486TfJk+5vvuudJ/GY+9NKh2HoTaHoAa8UFp8+Blm2/W+vvfM3NIBpc7mvMBNeKF0uqB
+Em7CpHwga726ftQuGfkAyasDbAsKKEE3poMuWEphHrU0YirqZ4GWQoB9F1cQGyghNxTZhbu1e0Ys
+VZKKahzyrqEzeBFy4X2ESUyevhKHpml5Pmbq8OWhE/Mj9Vh80oifzxoKW1TdPw3icqwZb8JuzFzr
+Q3xYR+tNgxMaMDD/TcPKRACYtHjtw/6a4joecGROQfA44OQnkhhmIsnBGybah1Er4GcBL8bu7X3O
+A5WZGASBgcM8QDIhZLnfgB6PwmivxK87+3ggN+7K8UB5+iQEFQwKiJNJ7D+f5uKfpK9XD/FA2a3u
+2R2Dx2EfPMGhz3RnETAFB/SIHXq0Arq/GAZ70u88QLOdScS21DFOWaoXD96OYeGSuTZJS+9esUg5
+VhZ/wOioWhuw3e7OkiSwWZins4C3CN/P1sOI1WJpagJG5861ARpbshdbk0dRmuzhzy2JHlzsa+Iv
+5jwbOcvZOSzPffp7gKbknHuUApsTR3jAm+gyN6C7071pdWv9z2H7gqWtnw27NzlLLvjGvz5t0FNX
+q4dJWI0pS9JvQh3VueRHxZgAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d9d2dc0a-ea74-405b-8815-7426843a6845"
+		isrooted="True"
+		name="Upchain"
+		refpath="/form[@title='Upchain']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="4226a3b0-a014-4093-8d63-0da1d6808533"
+			name="ButtonLogoutConfirm"
+			refimgid="e246a59f-1be1-4f89-bcfa-574cbc62eef5"
+			refpath="/form[@title='Upchain']/button[@text='&amp;Yes']"
+			robustPath="/form[@title='Upchain']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Upchain']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Upchain']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHSSURBVDhPY2DVMP1PCYYbwKxu8p9R1eg/ExCz
+ANnIiuBq1IyhaozhYmADQJpd4jL+t0yd879uwvT/ai7+YMUwRSDMrmX2P7qo6n/rtDn/i9v7/ouY
+OoItAhsAsrVpyqz/IPD9x8//bglZYJuQDeDUtvi/Yfd+sJqHT5//V3byBVuCxYAfA24AGV4AMfzS
+C/7PWrH2/+RFy/9re4aAxZANAAViZl3b/9kr1/1vmz73v7i5MyIQQQxpa/f/JgHR/439o+AhjGwA
+p47Ff12vULAaDbdAoIHmYHGwASDnJpbX/3/38eP/D58+/6+fOP0/E9AFIENY1IGKlA3/20elgJ3+
++cvX/0s3bgN7CW4ASLGBb8T/py9fgf344vWb/wll9WCX8BnY/LcMif9/6PQ5sNy/f//+5zd3wxMT
+2AAQZtM0AyaSuf///v0HVvj12/f/py9d/X/w1FmggW/BYiBwGGiQDNC7MC/CDQAJgGycCQzIHz9/
+QpWjghMXLv83DYxBCWC4ASAMStIgJ8cW1/zfvO/Q/5v3Hvy/9+jJ/6NnL4CTuKKDN0bsoBgAwiCX
+gNIFt67Vfxkbj/8K9t7/BY3twRqZ1TAzGYYByBjkIpBG9ChFYNP/ALKWANz4PT8vAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="119ffc5d-4641-4755-9fc7-0d75a6d5774e"
+		isrooted="True"
+		name="LogInToUpchainSuccess"
+		refpath="/dom[@domain='127.0.0.1:57221']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9ad9f362-26ba-4edb-820f-5d86ecd5b1fd"
+			name="MsgLoginSuccessful"
+			refimgid="258ac1c9-e286-4e41-8b75-73d157bdc6fd"
+			refpath="/dom[@domain='127.0.0.1:57221']/body/div/div[@innertext='            Login successful        ']"
+			robustPath="/dom[@domain='127.0.0.1:57221']//div[@innertext>'            Login successful']"
+			searchtimeout="30000ms">
+				/dom[@domain='127.0.0.1:57221']/body/?/?/div[@innertext&gt;'            Login successful']
+			</item>
+			<basepath>
+				/dom[@domain='127.0.0.1:57221']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.43s"
+		durationms="11434"
+		type="root"
+		rid="2cfa9e481e49682"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wum1"
+		rxversion="10.1.3.0"
+		host="ECS-2FB64472"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="1/7/2022 2:26:25 PM"
+		timestampiso="2022-01-07T06:26:25"
+		endtime="1/7/2022 2:26:36 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.295"
+			timeRelativeToTestModuleStartTime="00:11.295"
+			timeWallClock="14:26:36"
+			time="00:11.295"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.355"
+			timeRelativeToTestModuleStartTime="00:11.355"
+			timeWallClock="14:26:36"
+			time="00:11.355"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files\Upchain\Upchain CAD Importer\UpchainCADImporter.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

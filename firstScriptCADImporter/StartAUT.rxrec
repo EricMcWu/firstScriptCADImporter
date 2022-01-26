@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0d2f6d01-5d33-4cbb-ac5c-7f6703c5c4a8"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="firstScriptCADImporter">
+	</codegen>
+	<variables>
+		<var
+		id="1d1e69b4-3741-488f-b5a6-0a7875bb2f61"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\Upchain\Upchain CAD Importer\UpchainCADImporter.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="171bf835-e29d-4960-9a03-af05c109168d"
+	name="firstScriptCADImporterRepository"
+	relativepath="firstScriptCADImporterRepository.rxrep">
+		<codegen
+		classname="firstScriptCADImporterRepository"
+		namespace="firstScriptCADImporter">
+		</codegen>
+		<rootfolder
+		id="863124fd-6afe-4612-8bb8-501b3e405402"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

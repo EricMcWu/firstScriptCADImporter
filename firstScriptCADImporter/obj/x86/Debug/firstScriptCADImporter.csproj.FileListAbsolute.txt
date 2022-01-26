@@ -1,0 +1,10 @@
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\bin\Debug\firstScriptCADImporter.rxtmg
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\bin\Debug\firstScriptCADImporter.rxtst
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\bin\Debug\firstScriptCADImporter.exe.config
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\bin\Debug\firstScriptCADImporter.xml
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\bin\Debug\firstScriptCADImporter.exe
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\bin\Debug\firstScriptCADImporter.pdb
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\obj\x86\Debug\firstScriptCADImporter.csprojResolveAssemblyReference.cache
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\obj\x86\Debug\firstScriptCADImporter.exe
+C:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\obj\x86\Debug\firstScriptCADImporter.pdb

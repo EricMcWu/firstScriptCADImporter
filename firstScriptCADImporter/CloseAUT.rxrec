@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="64243aa2-ccb0-4e84-a9fa-7a198e921208"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="firstScriptCADImporter">
+	</codegen>
+	<variables>
+		<var
+		id="43ddee65-e0e0-4ee5-802e-62d46b9cad75"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="83bf8e40-30cc-4210-b55c-51598333e1bc">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="171bf835-e29d-4960-9a03-af05c109168d"
+	name="firstScriptCADImporterRepository"
+	relativepath="firstScriptCADImporterRepository.rxrep">
+		<codegen
+		classname="firstScriptCADImporterRepository"
+		namespace="firstScriptCADImporter">
+		</codegen>
+		<rootfolder
+		id="863124fd-6afe-4612-8bb8-501b3e405402"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

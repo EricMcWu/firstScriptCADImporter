@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>firstScriptCADImporter</name>
+    </assembly>
+    <members>
+        <member name="T:firstScriptCADImporter.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:firstScriptCADImporter.CloseAUT.repo">
+            <summary>
+            Holds an instance of the firstScriptCADImporterRepository repository.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:firstScriptCADImporter.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:firstScriptCADImporter.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:firstScriptCADImporter.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the firstScriptCADImporterRepository repository.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:firstScriptCADImporter.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:firstScriptCADImporter.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.firstScriptCADImporterRepository">
+            <summary>
+            The class representing the firstScriptCADImporterRepository element repository.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.firstScriptCADImporterRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the firstScriptCADImporterRepository element repository.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepository.UpchainCADImporter">
+            <summary>
+            The UpchainCADImporter folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepository.LogInToUpchain">
+            <summary>
+            The LogInToUpchain folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepository.LogInToUpchainGoogleChrome">
+            <summary>
+            The LogInToUpchainGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepository.Upchain">
+            <summary>
+            The Upchain folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepository.LogInToUpchainSuccess">
+            <summary>
+            The LogInToUpchainSuccess folder.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder">
+            <summary>
+            The UpchainCADImporterAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UpchainCADImporter  folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder.ButtonLogout">
+            <summary>
+            The ButtonLogout item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder.ButtonLogoutInfo">
+            <summary>
+            The ButtonLogout item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder.Btn_textLogin">
+            <summary>
+            The Btn_textLogin item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder.Btn_textLoginInfo">
+            <summary>
+            The Btn_textLogin item info.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder">
+            <summary>
+            The LogInToUpchainAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogInToUpchain  folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.fieldUsername">
+            <summary>
+            The fieldUsername item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.fieldUsernameInfo">
+            <summary>
+            The fieldUsername item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.fieldPassword">
+            <summary>
+            The fieldPassword item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.fieldPasswordInfo">
+            <summary>
+            The fieldPassword item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.ButtonContinue">
+            <summary>
+            The ButtonContinue item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainAppFolder.ButtonContinueInfo">
+            <summary>
+            The ButtonContinue item info.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainGoogleChromeAppFolder">
+            <summary>
+            The LogInToUpchainGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogInToUpchainGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainAppFolder">
+            <summary>
+            The UpchainAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Upchain  folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainAppFolder.ButtonLogoutConfirm">
+            <summary>
+            The ButtonLogoutConfirm item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainAppFolder.ButtonLogoutConfirmInfo">
+            <summary>
+            The ButtonLogoutConfirm item info.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainSuccessAppFolder">
+            <summary>
+            The LogInToUpchainSuccessAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainSuccessAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogInToUpchainSuccess  folder.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainSuccessAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainSuccessAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainSuccessAppFolder.MsgLoginSuccessful">
+            <summary>
+            The MsgLoginSuccessful item.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.LogInToUpchainSuccessAppFolder.MsgLoginSuccessfulInfo">
+            <summary>
+            The MsgLoginSuccessful item info.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:firstScriptCADImporter.Logout.repo">
+            <summary>
+            Holds an instance of the firstScriptCADImporterRepository repository.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:firstScriptCADImporter.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:firstScriptCADImporter.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:firstScriptCADImporter.Login.repo">
+            <summary>
+            Holds an instance of the firstScriptCADImporterRepository repository.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:firstScriptCADImporter.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:firstScriptCADImporter.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.Login.username">
+            <summary>
+            Gets or sets the value of variable username.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.Login.password">
+            <summary>
+            Gets or sets the value of variable password.
+            </summary>
+        </member>
+        <member name="T:firstScriptCADImporter.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:firstScriptCADImporter.StartAUT.repo">
+            <summary>
+            Holds an instance of the firstScriptCADImporterRepository repository.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:firstScriptCADImporter.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:firstScriptCADImporter.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:firstScriptCADImporter.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:firstScriptCADImporter.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

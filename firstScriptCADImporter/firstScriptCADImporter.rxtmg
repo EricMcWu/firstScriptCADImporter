@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="firstScriptCADImporter"
+      id="43f16c12-a64c-4587-99f5-048357e20391"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="firstScriptCADImporter"
+      id="43f16c12-a64c-4587-99f5-048357e20391"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

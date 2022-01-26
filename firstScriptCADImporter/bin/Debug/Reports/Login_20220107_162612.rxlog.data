@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="54.06s"
+		durationms="54064"
+		type="root"
+		rid="10564a1460c53720"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wum1"
+		rxversion="10.1.3.0"
+		host="ECS-2FB64472"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="1/7/2022 4:26:18 PM"
+		timestampiso="2022-01-07T08:26:18"
+		endtime="1/7/2022 4:27:12 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<errormessage>
+			Failed to find item 'firstScriptCADImporterRepository.UpchainCADImporter.ButtonLogIn'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.689"
+			timeRelativeToTestModuleStartTime="00:10.689"
+			timeWallClock="16:26:29"
+			time="00:10.689"
+			level="Warn"
+			category="Data"
+			errimg="images_Login_20_798c9115\Login_20_798c9115_6360a1cf_trace.jpg"
+			errthumb="images_Login_20_798c9115\Login_20_798c9115_6360a1cf_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>username, password
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.759"
+			timeRelativeToTestModuleStartTime="00:10.759"
+			timeWallClock="16:26:29"
+			time="00:10.759"
+			level="Info"
+			category="Mouse"
+			errimg="images_Login_20_798c9115\Login_20_798c9115_6360a1cf_trace.jpg"
+			errthumb="images_Login_20_798c9115\Login_20_798c9115_6360a1cf_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'UpchainCADImporter.ButtonLogIn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Upchain CAD Importer']/?/?/button[@name='Log in']"
+				itempath="?/?/button[@name='Log in']"
+				fullname="firstScriptCADImporterRepository.UpchainCADImporter.ButtonLogIn"
+				id="7467e40519df4fe1ac74a441e76916d6"
+				timeout="60000"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.445"
+			timeRelativeToTestModuleStartTime="00:52.445"
+			timeWallClock="16:27:11"
+			time="00:52.445"
+			level="Info"
+			category="User"
+			errimg="images_Login_20_798c9115\Login_20_798c9115_85d0b909_trace.jpg"
+			errthumb="images_Login_20_798c9115\Login_20_798c9115_85d0b909_trace_thumb.jpg">
+			<message>
+				Item 'ButtonLogIn' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="109"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.892"
+			timeRelativeToTestModuleStartTime="00:52.892"
+			timeWallClock="16:27:11"
+			time="00:52.892"
+			level="Error"
+			category="Module"
+			errimg="images_Login_20_798c9115\Login_20_798c9115_b0a7fdb3_trace.jpg"
+			errthumb="images_Login_20_798c9115\Login_20_798c9115_b0a7fdb3_trace_thumb.jpg">
+			<message>
+				Failed to find item 'firstScriptCADImporterRepository.UpchainCADImporter.ButtonLogIn'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@title='Upchain CAD Importer']/?/?/button[@name='Log in']' at step 'button[@name='Log in']' after 65 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at firstScriptCADImporter.firstScriptCADImporterRepositoryFolders.UpchainCADImporterAppFolder.get_ButtonLogIn() in c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\firstScriptCADImporterRepository.cs:line 190&#13;&#10;   at firstScriptCADImporter.Login.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs:line 109&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="109"
+				type="repoitem"
+				path="/form[@title='Upchain CAD Importer']/?/?/button[@name='Log in']"
+				itempath="?/?/button[@name='Log in']"
+				fullname="firstScriptCADImporterRepository.UpchainCADImporter.ButtonLogIn"
+				id="7467e40519df4fe1ac74a441e76916d6"
+				timeout="60000"
+				failedStep="button[@name='Log in']"
+				bestPathPrefix="?/?"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

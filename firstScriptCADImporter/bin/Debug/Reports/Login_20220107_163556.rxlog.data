@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="27.13s"
+		durationms="27125"
+		type="root"
+		rid="cd2dbdf3ec40fe0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wum1"
+		rxversion="10.1.3.0"
+		host="ECS-2FB64472"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x2160"
+		timestamp="1/7/2022 4:36:01 PM"
+		timestampiso="2022-01-07T08:36:01"
+		endtime="1/7/2022 4:36:28 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.371"
+			timeRelativeToTestModuleStartTime="00:10.371"
+			timeWallClock="16:36:12"
+			time="00:10.371"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>username, password
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.467"
+			timeRelativeToTestModuleStartTime="00:10.467"
+			timeWallClock="16:36:12"
+			time="00:10.467"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'UpchainCADImporter.textLogin' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Upchain CAD Importer']/?/?/button[@text='Log in']/text[@caption='Log in']"
+				itempath="?/?/button[@text='Log in']/text[@caption='Log in']"
+				fullname="firstScriptCADImporterRepository.UpchainCADImporter.textLogin"
+				id="33d619b0163f44388617b39a600a9fc7"
+				timeout="60000"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.212"
+			timeRelativeToTestModuleStartTime="00:16.212"
+			timeWallClock="16:36:17"
+			time="00:16.212"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LogInToUpchain.Username' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='release-sso.upchain.gold']//input[#'username']"
+				itempath=".//input[#'username']"
+				fullname="firstScriptCADImporterRepository.LogInToUpchain.Username"
+				id="999a84a5e4744c52ad8170874afd9e74"
+				timeout="60000"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.485"
+			timeRelativeToTestModuleStartTime="00:22.485"
+			timeWallClock="16:36:24"
+			time="00:22.485"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$username' with focus on 'LogInToUpchain.Username'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='release-sso.upchain.gold']//input[#'username']"
+				itempath=".//input[#'username']"
+				fullname="firstScriptCADImporterRepository.LogInToUpchain.Username"
+				id="999a84a5e4744c52ad8170874afd9e74"
+				timeout="60000"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.511"
+			timeRelativeToTestModuleStartTime="00:23.511"
+			timeWallClock="16:36:25"
+			time="00:23.511"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LogInToUpchain.Password' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='release-sso.upchain.gold']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="firstScriptCADImporterRepository.LogInToUpchain.Password"
+				id="07985518d2b441f6a6572f29619e9b26"
+				timeout="60000"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="120"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.122"
+			timeRelativeToTestModuleStartTime="00:25.122"
+			timeWallClock="16:36:26"
+			time="00:25.122"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$password' with focus on 'LogInToUpchain.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='release-sso.upchain.gold']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="firstScriptCADImporterRepository.LogInToUpchain.Password"
+				id="07985518d2b441f6a6572f29619e9b26"
+				timeout="60000"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="124"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.022"
+			timeRelativeToTestModuleStartTime="00:26.022"
+			timeWallClock="16:36:27"
+			time="00:26.022"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LogInToUpchain.KcLogin' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='release-sso.upchain.gold']//input[#'kc-login']"
+				itempath=".//input[#'kc-login']"
+				fullname="firstScriptCADImporterRepository.LogInToUpchain.KcLogin"
+				id="abf6446cadcb4bba94078459d8694b32"
+				timeout="60000"
+				codefile="c:\Users\wum1\Documents\Ranorex\RanorexStudio Projects\firstScriptCADImporter\firstScriptCADImporter\Login.cs"
+				codeline="128"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
